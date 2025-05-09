@@ -1,8 +1,8 @@
 
 import gradio as gr
 import tempfile
-import fitz  # PyMuPDF for PDF text extraction
-import json  # For handling JSON output
+import fitz  
+import json  
 import torch
 import transformers
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, BitsAndBytesConfig

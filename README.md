@@ -35,8 +35,9 @@ Hugging face token can be found in your hugging face profile's setting -> Access
 export HUGGINGFACE_TOKEN=your_token_here
 ```
 ** If you are using Windows CMD **
+```bash
 set HUGGINGFACE_TOKEN=your_token_here
-
+```
 ### Step5 Run the App
 
 ```bash

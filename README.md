@@ -30,11 +30,11 @@ pip install -r requirements.txt
 
 ### Step 4. Set your Hugging Face token:
 Hugging face token can be found in your hugging face profile's setting -> Access Tokes -> Create new token (or) use your old token
-** If you are using Linux/macOS:**
+**If you are using Linux/macOS:**
 ```bash
 export HUGGINGFACE_TOKEN=your_token_here
 ```
-** If you are using Windows CMD **
+**If you are using Windows CMD**
 ```bash
 set HUGGINGFACE_TOKEN=your_token_here
 ```
@@ -53,7 +53,7 @@ Once you run Step5, you can upload PDF files of scientific documents and test th
   
 ### Tech Stack:
 - Python: Core programming language
-- LangChain: Library for building language model applications
+- Transformers: To download and use pre-trained models from Hugging Face, we utilize the transformers library, which provides simple APIs for accessing and integrating state-of-the-art language models into Python projects.
 - Gemma Model : AI model for natural language understanding and generation
 
 ### Acknowledgments

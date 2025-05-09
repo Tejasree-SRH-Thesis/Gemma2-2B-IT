@@ -1,0 +1,8 @@
+gradio
+torch
+tiktoken
+einops
+accelerate
+bitsandbytes
+PyMuPDF
+transformers>=4.30.0

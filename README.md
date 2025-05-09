@@ -6,9 +6,9 @@ This project presents an automated system for extracting academic metadata from 
 Follow these steps to get a copy of automated metadata extraction app and running on your local machine for development and testing purposes.
 
 ### Prerequisites
--**Anaconda**: Download and install Anaconda from the [official Anaconda website](https://www.anaconda.com/products/individual).
--**Hugging Face Account**: You need a [Hugging Face account](https://huggingface.co/) and a read access token.
-  
+- **Anaconda**: Download and install Anaconda from the [official Anaconda website](https://www.anaconda.com/products/individual).
+- **Hugging Face Account**: You need a [Hugging Face account](https://huggingface.co/) and a read access token.
+    
 ## Setup Instructions
 
 ### Step 1. Clone the repository:

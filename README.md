@@ -46,9 +46,9 @@ python main.py
 Once you run Step5, you can upload PDF files of scientific documents and test the metadata extraction.
 
 ### Notes:
-**Using Local PDF Documents**:
+- **Using Local PDF Documents**:
   A few PDF documents available locally in `Data` folder that can be uploaded for testing purposes.
-**Using My Existed Account**:
+- **Using My Existed Account**:
   You can directly use my hugging face token. The necessary details have been encapsulated within the code.
   
 ### Tech Stack:

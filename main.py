@@ -8,15 +8,15 @@ import transformers
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline, BitsAndBytesConfig
 import re
 import os
-# os.environ["HF_TOKEN"] = "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"
 
-hf_token = os.getenv("HUGGINGFACE_TOKEN")
-if not hf_token:
-    raise EnvironmentError("Please set the HUGGINGFACE_TOKEN environment variable.")
+# os.environ["HF_TOKEN"] = "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"
+# hf_token = os.getenv("HUGGINGFACE_TOKEN")
+# if not hf_token:
+#     raise EnvironmentError("Please set the HUGGINGFACE_TOKEN environment variable.")
 
 MODEL_NAME = "google/gemma-2-2b-it"
 DEVICE = "cpu"
-# hf_token = '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'
+hf_token = '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' #my personal hugging face token or please use your own token
 
 def load_model():
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, token=hf_token, trust_remote_code=True)

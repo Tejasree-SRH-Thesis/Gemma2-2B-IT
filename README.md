@@ -6,8 +6,8 @@ This project presents an automated system for extracting academic metadata from 
 Follow these steps to get a copy of Mistral Internal Search up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-**Anaconda**: Download and install Anaconda from the [official Anaconda website](https://www.anaconda.com/products/individual).
-**Hugging Face Account**: You need a [Hugging Face account](https://huggingface.co/) and a read access token.
+-**Anaconda**: Download and install Anaconda from the [official Anaconda website](https://www.anaconda.com/products/individual).
+-**Hugging Face Account**: You need a [Hugging Face account](https://huggingface.co/) and a read access token.
   
 ## Setup Instructions
 
@@ -30,11 +30,11 @@ pip install -r requirements.txt
 
 ### Step 4. Set your Hugging Face token:
 Hugging face token can be found in your hugging face profile's setting -> Access Tokes -> Create new token (or) use your old token
-**Linux/macOS:**
+** If you are using Linux/macOS:**
 ```bash
 export HUGGINGFACE_TOKEN=your_token_here
 ```
-**Windows CMD**
+** If you are using Windows CMD **
 set HUGGINGFACE_TOKEN=your_token_here
 
 ### Step5 Run the App

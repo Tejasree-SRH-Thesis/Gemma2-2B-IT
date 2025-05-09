@@ -3,7 +3,7 @@
 This project presents an automated system for extracting academic metadata from scientific documents using small-scale Large Language Models (LLMs) with fewer than 3 billion parameters. The solution leverages instruction-tuned models like google/gemma-2-2b-it and features an interactive Gradio web interface for real-time validation and user feedback. Our results show that small LLMs can achieve metadata extraction performance comparable to traditional NLP methods, while requiring significantly less computational resources. This project aims to improve the efficiency, scalability, and accessibility of academic metadata management across diverse publication formats.
 
 ## Getting Started
-Follow these steps to get a copy of Mistral Internal Search up and running on your local machine for development and testing purposes.
+Follow these steps to get a copy of automated metadata extraction app and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 -**Anaconda**: Download and install Anaconda from the [official Anaconda website](https://www.anaconda.com/products/individual).

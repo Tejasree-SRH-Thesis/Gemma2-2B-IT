@@ -52,7 +52,7 @@ Once you run Step5, you can upload PDF files of scientific documents and test th
   You can directly use my hugging face token. The necessary details have been encapsulated within the code.
 - **Google Collab File**:
   A goggle collab file,`Gemma_Gradio.ipynb` is uploaded here. You can download and run the same code present in each cell directly in collab environment bypassing installation of Anaconda and following all 5 steps. 
-  
+ 
 ### Tech Stack:
 - Python: Core programming language
 - Transformers: To download and use pre-trained models from Hugging Face, we utilize the transformers library, which provides simple APIs for accessing and integrating state-of-the-art language models into Python projects.
@@ -60,3 +60,8 @@ Once you run Step5, you can upload PDF files of scientific documents and test th
 
 ### Acknowledgments
 Special thanks to Professor Binh Vu and SRH Heidelberg for supporting this project.
+### Host
+The Automated Metadata Etractor app is hosted on `Hugging face spaces` and can be accessed at the following URL:
+```bash
+ https://huggingface.co/spaces/tejasreereddy/Gemma_MetadataExtractor
+```
